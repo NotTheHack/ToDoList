@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js.js"></script>
+    <title>Document</title>
+    <style>
+    .strike {
+        text-decoration: line-through;
+    }
+    </style>
+</head>
+<body>
+    <h3>A "To-Do" List</h3>
+    <form id="submit" action="">
+        <p>
+            <label for="txt_box">Escreva suas tarefas aqui:</label>
+            <br>
+            <input type="text" name="txtbox" id="txt_box">
+            <button type="button" onclick="registerTask()">Cadastrar</button>
+        </p>
+    </form>
+    <hr>
+    <ol id="tasklist"></ol>
+</body>
+</html>
